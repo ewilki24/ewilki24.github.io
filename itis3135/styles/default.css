@@ -1,0 +1,19 @@
+body {
+    background-color: #B7F2FF;
+    font-family:Geneva
+  }
+  
+  h1, h2 {
+    color: #0055A4;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 20px;
+    color:#0085FF
+  }
+
+  a {
+    text-align: center;
+    color: #393939;
+  }
