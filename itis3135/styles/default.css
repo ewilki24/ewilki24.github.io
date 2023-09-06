@@ -11,6 +11,7 @@ body {
   p {
     font-size: 20px;
     color:#0085FF
+    
   }
 
   a {
@@ -19,6 +20,10 @@ body {
   }
 
   nav{
+    text-align: center;
+  }
+
+  footer {
     text-align: center;
   }
 
