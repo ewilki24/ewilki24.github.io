@@ -2,6 +2,10 @@ body {
     background-color: #B7F2FF;
     font-family:Geneva
   }
+
+  footer {
+    text-align: center;
+  }
   
   h1, h2 {
     color: #0055A4;
@@ -20,10 +24,6 @@ body {
   }
 
   nav{
-    text-align: center;
-  }
-
-  footer {
     text-align: center;
   }
 
