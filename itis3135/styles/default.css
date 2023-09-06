@@ -40,7 +40,8 @@ body {
   }
 
   img {
-    height: 400px;
+    height: auto;
+    width: auto;
   }
 
   .cover {
