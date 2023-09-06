@@ -11,7 +11,7 @@ body {
   p {
     font-size: 20px;
     color:#0085FF
-    
+
   }
 
   a {
@@ -41,4 +41,8 @@ body {
 
   img {
     height: 400px;
+  }
+
+  .cover {
+    text-align: center;
   }
