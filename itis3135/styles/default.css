@@ -18,6 +18,10 @@ body {
     color: #393939;
   }
 
+  nav{
+    text-align: center;
+  }
+
   .center {
     display: block;
     margin-left: auto;
@@ -28,4 +32,8 @@ body {
   figcaption {
     font-style: italic;
     text-align: center;
+  }
+
+  img {
+    height: 400px;
   }
