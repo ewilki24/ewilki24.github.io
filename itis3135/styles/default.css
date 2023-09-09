@@ -7,7 +7,7 @@ body {
     text-align: center;
   }
   
-  h1, h2 {
+  h1, h2, h3 {
     color: #0055A4;
     text-align: center;
   }
@@ -27,7 +27,7 @@ body {
     text-align: center;
   }
 
-  .center {
+  .image {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -39,11 +39,33 @@ body {
     text-align: center;
   }
 
-  img {
-    height: 50%;
-    width: 50%;
-  }
-
   .cover {
     text-align: center;
+  }
+
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
+
+  table {
+    text-align: center;
+    border-color: antiquewhite;
+  }
+
+  th {
+    background-color: #002447;
+    color: antiquewhite;
+  }
+
+  table tr:nth-child(even) {
+    background-color: #0055A4;
+    color: antiquewhite;
+  } 
+
+  table tr:nth-child(odd) {
+    background-color: #006cd4;
+    color: antiquewhite;
   }
