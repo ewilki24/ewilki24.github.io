@@ -14,8 +14,7 @@ body {
   
   p {
     font-size: 20px;
-    color:#0085FF
-
+    color:#0085FF;
   }
 
   a {
@@ -70,4 +69,19 @@ body {
   table tr:nth-child(odd) {
     background-color: #006cd4;
     color: antiquewhite;
+  }
+
+  button {
+    background-color: #002447;
+    color: antiquewhite;
+    border-color: antiquewhite;
+  }
+
+  fieldset {
+    background-color: #002447;
+    color: antiquewhite;
+    border-bottom: 4px solid antiquewhite;
+    border-top: none;
+    border-right: 4px solid antiquewhite;
+    border-left: none;
   }

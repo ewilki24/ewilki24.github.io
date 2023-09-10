@@ -26,11 +26,99 @@
         <h2>Activity #3 - HTML Forms</h2>
 
         <h3>Job Application</h3>
-        <label for="first-name">First Name:</label>
-        <input type="text" id="first-name" name="first-name">
+        <fieldset>
+            <div>
+                <p>Personal Info:</p>
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" placeholder="First Name" required><br>
+    
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Last Name" required><br>
+    
+                <label for="phone-number">Phone Number:</label>
+                <input type="text" id="phone-number" name="phone-number" placeholder="(123) 456 7890" required><br>
+    
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" placeholder="____@****.com" required><br>
+            </div>
+        </fieldset>
+            
+        <fieldset>
+            <div>
+                <p>What qualities would you describe yourself having?</p>
+                <input type="checkbox" id="qualities1" name="qualities1" value="hardworking">
+                <label for="qualities1">Hardworking</label><br>
+    
+                <input type="checkbox" id="qualities2" name="qualities2" value="ambitious">
+                <label for="qualities2">Ambitious</label><br>
+    
+                <input type="checkbox" id="qualities3" name="qualities3" value="organized">
+                <label for="qualities3">Organized</label><br>
+    
+                <input type="checkbox" id="qualities4" name="qualities4" value="lazy">
+                <label for="qualities4">Lazy</label><br>
+    
+                <input type="checkbox" id="qualities5" name="qualities5" value="easygoing">
+                <label for="qualities5">Easygoing</label><br>
+    
+                <input type="checkbox" id="qualities6" name="qualities6" value="other">
+                <label for="qualities6">Other</label><br>
+            </div>
+        </fieldset>
 
-        <label for="last-name">Last Name:</label>
-        <input type="text" id="last-name" name="last-name">
+        <fieldset>
+            <form action="#forms.html" method="get">
+                <p>What position are you applying for?</p>
+                <div>
+                    <input type="radio" id="position1" name="position1" value="marketing">
+                    <label for="position1">Marketing</label><br>
+                </div>
+    
+                <div>
+                    <input type="radio" id="position2" name="position2" value="accounting">
+                    <label for="position2">Accounting</label><br> 
+                </div>
+    
+                <div>
+                    <input type="radio" id="position3" name="position3" value="sales">
+                    <label for="position3">Sales</label><br>
+                </div>
+    
+                <div>
+                    <input type="radio" id="position4" name="position4" value="cybersecurity">
+                    <label for="position4">Cybersecurity</label><br>
+                </div>
+    
+                <div>
+                    <input type="radio" id="position5" name="position5" value="info-technology">
+                    <label for="position5">Information Technology(IT)</label><br>
+                </div>
+            </form>
+        </fieldset>
+
+        <fieldset>
+            <div>
+                <p>What is your highest level of education?</p>
+                <label for="education">Level of Education:</label><br>
+                <select id="education" name="education">
+                    <option value="select">-(select option)-</option>
+                    <option value="doctorate">Doctorate</option>
+                    <option value="masters">Masters</option>
+                    <option value="bachelors">Bachelors</option>
+                    <option value="high-school">High School Diploma</option>
+                    <option value="ged">GED</option>
+                    <option value="dropout">Dropout</option>
+                </select>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div>
+                <p>Reset or Sumbit Application</p>
+                <button type="button">Reset</button>
+                <button type="button">Sumbit</button>
+            </div>
+        </fieldset>
     </main>
 
     <footer>
