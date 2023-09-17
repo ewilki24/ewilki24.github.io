@@ -1,0 +1,32 @@
+img {
+    width: 400px;
+    height: 400px;
+}
+
+h2 {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-color: #e7efc5;
+}
+
+h1 {
+    font-family: Papyrus, fantasy;
+    background-color: #fb8f67;
+    
+}
+
+p {
+    font-family: Papyrus, fantasy;
+    font-size: xx-large;
+    text-align: center;
+    background-color: #e3d8f1;
+    border-bottom: #413c58 solid 15px;
+    border-left: #413c58 solid 10px;
+    border-right: #413c58 solid 8px;
+    border-top: #413c58 solid 5px;
+}
+
+ul {
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-color: #2e86ab;
+}
