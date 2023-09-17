@@ -1,89 +1,94 @@
 /* */
 
 body {
-    background-color: #f0dcca;
-    font-family:Geneva
-  }
+  background-color: #f0dcca;
+  font-family:Geneva
+}
 
-  footer {
-    text-align: center;
-  }
+header {
+  background-color: #2a324b;
+}
+
+footer {
+  text-align: center;
+  background-color: #2a324b;
+}
   
-  h1, h2, h3 {
-    color: #2a324b;
-    text-align: center;
-  }
+h1, h2, h3 {
+  color: #6f9283;
+  text-align: center;
+}
   
-  p {
-    font-size: 20px;
-    color:#6f9283;
-  }
+p {
+  font-size: 20px;
+  color: #8d9f87;
+}
 
-  a {
-    text-align: center;
-    color: #9e768f;
-  }
+a {
+  text-align: center;
+  color: #9e768f;
+}
 
-  nav{
-    text-align: center;
-  }
+nav{
+  text-align: center;
+}
 
-  .image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
-  figcaption {
-    font-style: italic;
-    text-align: center;
-  }
+figcaption {
+  font-style: italic;
+  text-align: center;
+}
 
-  .cover {
-    text-align: center;
-  }
+.cover {
+  text-align: center;
+}
 
-  .center {
-    margin-left: auto;
-    margin-right: auto;
-  }
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  .employee {
-    text-align: center;
-  }
+.employee {
+  text-align: center;
+}
 
-  table {
-    text-align: center;
-    border-color: antiquewhite;
-  }
+table {
+ text-align: center;
+  border-color: antiquewhite;
+}
 
-  th {
-    background-color: #2a324b;
-    color: antiquewhite;
-  }
+th {
+  background-color: #2a324b;
+  color: antiquewhite;
+}
 
-  table tr:nth-child(even) {
-    background-color: #6f9283;
-    color: antiquewhite;
-  } 
+table tr:nth-child(even) {
+  background-color: #6f9283;
+  color: antiquewhite;
+} 
 
-  table tr:nth-child(odd) {
-    background-color: #8d9f87;
-    color: antiquewhite;
-  }
+table tr:nth-child(odd) {
+  background-color: #8d9f87;
+  color: antiquewhite;
+}
 
-  button {
-    background-color: #2a324b;
-    color: antiquewhite;
-    border-color: antiquewhite;
-  }
+button {
+  background-color: #2a324b;
+  color: antiquewhite;
+  border-color: antiquewhite;
+}
 
-  fieldset {
-    background-color: #2a324b;
-    color: antiquewhite;
-    border-bottom: 4px solid antiquewhite;
-    border-top: none;
-    border-right: 4px solid antiquewhite;
-    border-left: none;
-  }
+fieldset {
+  background-color: #2a324b;
+  color: antiquewhite;
+  border-bottom: 4px solid antiquewhite;
+  border-top: none;
+  border-right: 4px solid antiquewhite;
+  border-left: none;
+}
