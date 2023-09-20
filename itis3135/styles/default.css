@@ -54,6 +54,10 @@ figcaption {
   margin-right: auto;
 }
 
+.employees {
+  text-align: center;
+}
+
 table {
   text-align: center;
   border-color: antiquewhite;
