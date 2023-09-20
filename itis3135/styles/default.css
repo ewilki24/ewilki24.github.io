@@ -54,6 +54,10 @@ figcaption {
   margin-right: auto;
 }
 
+ul {
+  text-align: center;
+}
+
 table {
   text-align: center;
   border-color: antiquewhite;
