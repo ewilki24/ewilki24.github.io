@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emily Wilkinson || Easygoing Wolf|| ITIS 3135 || Home</title>
+    <link rel="stylesheet" href="styles/default.css">
+    <script src="scripts/defaultscripts.js"></script>
+</head>
+<body>
+    <div data-include="components/header.html"></div>
+    <script src="scripts/include.js"></script>
+
+    <main>
+        <h2>First Scripts</h2>
+        
+        <h3>
+            <script>
+                var today = new Date();
+                document.write("Current Date: ");
+                document.write(today.toDateString());
+            </script>
+        </h3>
+        <h3>&copy;&nbsp;
+            <script>
+                var today = new Date();
+                document.write(today.getFullYear());
+            </script>
+            , Charlotte, NC
+        </h3>
+
+        <fieldset>
+            <div id="name">
+                <p>Please Enter Name:</p>
+
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" placeholder="First Name" required><br>
+    
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Last Name" required><br>
+                
+                <input type="button" onclick="submitName()" value="Submit">
+            </div>
+
+            <script>
+                function submitName() {
+                    document.getElementById("name").submit();
+                }
+            </script>
+        </fieldset>
+
+        <fieldset>
+            <div id="mood">
+                <p>How are you feeling?</p>
+
+                <div>
+                    <input type="radio" id="mood1" name="mood" value="good">
+                    <label for="mood1">Good</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="mood2" name="mood" value="okay">
+                    <label for="mood2">Okay</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="mood3" name="mood" value="bad">
+                    <label for="mood3">Bad</label>
+                </div>
+
+                <input type="button" onclick="submitMood()" value="Submit">
+            </div>
+
+            <script>
+                function submitMood() {
+                    document.getElementById("mood").submit();
+                }
+            </script>
+        </fieldset>
+
+        /* Greeting */
+
+        <fieldset>
+            <p>Enter a Number 1 - 10:</p>
+            <div id="polygon">
+                <input type="text" id="number" placeholder="Enter a Number 1 - 10" required><br>
+
+                <input type="button" onclick="findPolygon()" value="Submit">
+            </div>
+
+            <script>
+                function findPolygon() {
+                    document.getElementById("polygon").submit();
+                    if (x === 1) {
+                        alert("That is a henagon!");
+                    } else if (x === 2) {
+                        alert("That is a digon!");
+                    } else if (x === 3) {
+                        alert("That is a trigon!");
+                    } else if (x === 4) {
+                        alert("That is a tetragon!");
+                    } else if (x === 5) {
+                        alert("That is a pentagon!");
+                    } else if (x === 6) {
+                        alert("That is a hexagon!");
+                    } else if (x === 7) {
+                        alert("That is a heptagon!");
+                    } else if (x === 8) {
+                        alert("That is a octagon!");
+                    } else if (x === 9) {
+                        alert("That is a enneagon!");
+                    } else if (x === 10) {
+                        alert("That is a decagon!");
+                    } else {
+                        alert("Pick a differnet number!").submit();
+                    }
+                }
+            </script>
+        </fieldset>
+
+        <fieldset>
+            <p>What can this company do?</p>
+            <div>
+                <input type="radio" id="option1" name="options" value="Receive_A_Compliment" onclick="receiveCompliment()">
+                <label for="option1">Recieve A Compliment</label>
+                <script>
+                    function receiveCompliment() {
+                        alert("You have a great smile!");
+                    }
+                </script>
+            </div>
+                
+            <div>
+                <input type="radio" id="option2" name="options" value="Get_Motivation" onclick="getMotivation()">
+                <label for="option2">Get Motivation</label>
+                <script>
+                    function getMotivation() {
+                        alert("If you don't try, you'll fail anyway, so might as well just try it out!");
+                    }
+                </script>
+            </div>
+                
+            <div>
+                <input type="radio" id="option3" name="options" value="Add_A_Sum" onclick="addSum()">
+                <label for="option3">Add Sum</label>
+                <script>
+                    function addSum(a,b) {
+                        let sum = a + b;
+                    }
+                    addSum(5, 6);
+                    let sum = "The sum is " + sum;
+                </script>
+            </div>
+            
+            <div>
+                <input type="radio" id="option4" name="options" value="Tree_Fact" onclick="treeFact()">
+                <label for="option4">Tree Fact</label>
+                <script>
+                    function treeFact() {
+                        alert("Eastern Red Cedar is the most valuable NC tree in the forests.")
+                    }
+                </script>
+            </div>
+
+            <div>
+                <input type="radio" id="option5" name="options" value="Good_Candy" onclick="goodCandy()">
+                <label for="option5">Good Candy</label>
+                <script>
+                    function goodCandy() {
+                        alert("I recommend Hairbo Gumy Bears or Hershey's Chocolate Bar!")
+                    }
+                </script>
+            </div>
+        </fieldset>
+    </main>
+
+    <div data-include="components/footer.html"></div>
+    <script src="scripts/include.js"></script>
+</body>
+</html>
