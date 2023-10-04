@@ -38,7 +38,7 @@ nav{
   text-align: center;
 }
 
-ul figcaption {
+ul {
   color: #2a324b;
 }
 
@@ -52,6 +52,7 @@ ul figcaption {
 figcaption {
   font-style: italic;
   text-align: center;
+  color: #2a324b;
 }
 
 .center {
