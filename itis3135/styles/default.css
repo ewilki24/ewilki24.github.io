@@ -38,6 +38,10 @@ nav{
   text-align: center;
 }
 
+ul {
+  color: #8d9f87;
+}
+
 .image {
   display: block;
   margin-left: auto;
