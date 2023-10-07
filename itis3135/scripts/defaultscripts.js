@@ -1,6 +1,3 @@
-function scriptTest() {
-    alert("hey my script is running")
-}
 
 function submitName() {
     document.getElementById("name").submit();
