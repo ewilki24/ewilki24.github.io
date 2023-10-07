@@ -1,6 +1,6 @@
 function scriptTest() {
-    return "Hey my script is running";
+    alert("hey my script is running")
 }
 
-return scriptTest();
+
 
