@@ -34,17 +34,19 @@
             <button onclick="scriptTest()">Test</button>
         </form>
 
-         <fieldset>
+        <fieldset>
             <div id="name">
-                <p>Please Enter Name:</p>
+                <p>Please Enter Your Name:</p>
+            
+                <label for="name">First Name: </label>
+                <input type="text" id="name" placeholder="First Name" required><br>
 
-                <label for="first-name">First Name:</label>
-                <input type="text" id="first-name" name="first-name" placeholder="First Name" required><br>
-    
-                <label for="last-name">Last Name:</label>
-                <input type="text" id="last-name" name="last-name" placeholder="Last Name" required><br>
-                
-                <input type="button" onclick="submitName()" value="Submit">
+                <label for="name">Last Name: </label>
+                <input type="text" id="name" placeholder="Last Name" required><br>
+                <br>
+                <form>
+                    <button onclick="submitName()">Submit Name</button>
+                </form>
             </div>
         </fieldset>
 
@@ -53,33 +55,59 @@
                 <p>How are you feeling?</p>
 
                 <div>
-                    <input type="radio" id="mood1" name="mood" value="good">
-                    <label for="mood1">Good</label>
+                    <input type="radio" id="good" name="mood" value="Good">
+                    <label for="good">Good</label>
                 </div>
 
                 <div>
-                    <input type="radio" id="mood2" name="mood" value="okay">
-                    <label for="mood2">Okay</label>
+                    <input type="radio" id="okay" name="mood" value="Okay">
+                    <label for="okay">Okay</label>
                 </div>
 
                 <div>
-                    <input type="radio" id="mood3" name="mood" value="bad">
-                    <label for="mood3">Bad</label>
+                    <input type="radio" id="bad" name="mood" value="Bad">
+                    <label for="bad">Bad</label>
                 </div>
-
-                <input type="button" onclick="submitMood()" value="Submit">
+                <br>
+                <form>
+                    <button onclick="submitMood()">Submit Mood</button>
+                </form>
             </div>
         </fieldset>
+
+        <h4>Welcome to Wilkinson Enterprises!</h4>
 
         <fieldset>
             <p>Enter a Number 1 - 10:</p>
             <div id="polygon">
-                <input type="text" id="number" placeholder="Enter a Number 1 - 10" required><br>
+                <input type="number" id="polygon" placeholder="Enter a Number 1-10" required><br>
 
-                <input type="button" onclick="findPolygon()" value="Submit">
+                <form>
+                    <button onclick="findPolygon()">Find Out Polygon</button>
+                </form>
             </div>
         </fieldset>
-    </main> */
+
+        <form>
+            <button onclick="receiveComplement()">Receive Complement</button>
+        </form>
+
+        <form>
+            <button onclick="getMotivation()">Get Movtivation</button>
+        </form>
+
+        <form>
+            <button onclick="addSum()">What's 9 + 10?</button>
+        </form>
+
+        <form>
+            <button onclick="wolfFact()">Random Wolf Fact</button>
+        </form>
+
+        <form>
+            <button onclick="goodCandy()">Good Candy</button>
+        </form>
+    </main> 
 
     <div data-include="components/footer.html"></div>
     <script src="scripts/include.js"></script>
