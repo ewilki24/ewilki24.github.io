@@ -5,13 +5,9 @@ body {
   font-family:Geneva
 }
 
-header {
+header, footer {
   background-color: #2a324b;
-}
-
-footer {
   text-align: center;
-  background-color: #2a324b;
 }
   
 h1, h2, h3 {
@@ -24,7 +20,7 @@ h4 {
   text-align: center;
 }
   
-p {
+p, label {
   font-size: 20px;
   color: #8d9f87;
 }
@@ -90,7 +86,7 @@ button {
   border-color: antiquewhite;
 }
 
-fieldset {
+fieldset, form {
   background-color: #2a324b;
   color: antiquewhite;
   border-bottom: 4px solid antiquewhite;
@@ -98,3 +94,4 @@ fieldset {
   border-right: 4px solid antiquewhite;
   border-left: none;
 }
+

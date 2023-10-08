@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Emily Wilkinson || Easygoing Wolf|| ITIS 3135 || BYO Intro</title>
+        <link rel="stylesheet" href="styles/default.css">
+        <script src="scripts/survey.js"></script>
+    </head>
+    <body>
+        <div data-include="components/header.html"></div>
+        <script src="scripts/include.js"></script>
+
+        <main>
+            <h2>Activity #6 - BYO-Intro</h2>
+
+            <h3>Time to BYO Intro Page! Please fill out the form below so we can create your page!</h3>
+
+            <form action=" " onsubmit="event.preventDefault()">
+                <label for="name">Name: </label>
+                <input type="text" id="name" placeholder="First and Last Name" class="required" required><br>
+
+                <label for="mascot">Mascot: </label>
+                <input type="text" id="mascot" placeholder="Enter Mascot" class="required" required><br>
+
+                <label for="file">Upload a Picture of Yourself:</label><br>
+                <input type="file" id="file" name="picture" accept="image/png, image/jpg" class="required" required><br>
+                
+                <label for="caption">Caption Your Image: </label>
+                <input type="text" id="caption" placeholder="Caption this Image" class="required" required><br>
+
+                <ul>
+                    <li>
+                        <label for="personal">Personal Background: </label>
+                        <input type="text" id="personal" placeholder="Tell us about yourself!" class="required" required>
+                    </li>
+
+                    <li>
+                        <label for="professional">Professional Background: </label>
+                        <input type="text" id="professional" placeholder="Work Background?" class="required" required>
+                    </li>
+                    
+                    <li>
+                        <label>Academic Background: </label>
+                        <input type="text" id="academic" placeholder="Studying?" class="required" required>
+                    </li>
+
+                    <li>
+                        <label for="webdev">Background in Web Development: </label>
+                        <input type="text" id="webdev" placeholder="Experience?" class="required" required>
+                    </li>
+
+                    <li>
+                        <label for="tech">Primary Computer Platform: </label>
+                        <input type="text" id="tech" placeholder="Apple? Microsoft?" class="required" required>
+                    </li>
+
+                    <li>What classes are you taking?</li>
+                        <ul>
+                            <li id = "addBox">
+                                <input type="text" id="text" placeholder="XXXX 1234" class="required" required>
+                                <input type="button" id="addText" onclick="addText()" value="Add Text"><br>
+                                <input type="button" id="delete" onclick="deleteBox()" value="Delete"><br>
+                            </li>
+                        </ul>
+                </ul>
+
+                <label for="funny">Funny Thing? </label>
+                <input type="text" id="funny" placeholder="Funny about you?"><br>
+
+                <label>Anything else? </label>
+                <input type="text" id="other" placeholder="Something interesting?"><br>
+
+                <input type="submit" id="submit" onclick="submitForm()" value="Submit">
+                <input type="reset" id="reset" onclick="resetForm()" value="Reset">
+            </form>
+
+        </main>
+
+        <div data-include="components/footer.html"></div>
+        <script src="scripts/include.js"></script>
+    </body>
+</html>
