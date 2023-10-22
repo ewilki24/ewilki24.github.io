@@ -96,6 +96,11 @@ fieldset, form {
   border-left: none;
 }
 
+.try {
+  background-color: #f0dcca;
+  text-align: center;
+}
+
 @media (min-width: 576px) {
   body {
     background-color: #f0dcca;
