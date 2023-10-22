@@ -8,7 +8,7 @@ keys.addEventListener('click', e => {
     if (e.target.matches('button')) {
         if (!action) {
             console.log("number key!");
-        } else if (action === 'add' || action === 'subtract' || action === 'multiply' || action === 'divide') {
+        } /*else if (action === 'add' || action === 'subtract' || action === 'multiply' || action === 'divide') {
             console.log("operator key!");
         } else if (action === 'decimal') {
             console.log("decimal key!");
@@ -16,11 +16,11 @@ keys.addEventListener('click', e => {
             console.log("clear key!");
         } else if (action === 'calculate') {
             console.log("equal key!");
-        }
+        }*/
     }
 })
 
-/*
+
 if (!action) {
     console.log('number key!');
 }
@@ -40,5 +40,5 @@ if (action === 'clear') {
 if (action === 'calculate') {
     console.log("equal key!");
 }
-*/
+
 
