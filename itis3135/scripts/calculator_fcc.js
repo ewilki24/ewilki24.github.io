@@ -110,7 +110,7 @@ keys.addEventListener('click', e => {
             display.textContent = displayedNum + '.';
         }
 
-        const resultString = createResultString = (key, displayedNum, state) => {
+       /* const resultString = createResultString = (key, displayedNum, state) => {
             const keyContent = key.textContent;
             const {action} = key.dataset;
             const {firstValue, modValue, operator, previousKeyType} = state;
@@ -229,7 +229,7 @@ keys.addEventListener('click', e => {
                 const clearButton = calculator.querySelector('[data-action=clear');
                 clearButton.textContent = 'CE';
             }
-        }
+        }*/
     }
 
 })
