@@ -101,8 +101,8 @@ fieldset, form {
   text-align: center;
 }
 
-.calculator_keys {
-  display: grid;
+.calculator_display {
+  text-align: center;
 }
 
 @media (min-width: 576px) {
