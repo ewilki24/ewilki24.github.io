@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emily Wilkinson || Easygoing Wolf|| ITIS 3135 || Home</title>
+    <link rel="stylesheet" href="styles/default.css">
+</head>
+<body>
+    <div data-include="components/header.html"></div>
+    <script src="scripts/include.js"></script>
+
+    <main>
+        <h2>Emily Wilkinson : Arrays</h2>
+
+        <form>
+            <table class="center" id="results_table"> 
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Salary</th>
+                </tr>
+                <tr>
+                    <td>McKenna Kirkpatrick</td>
+                    <td>mkirkp@gmail.com</td>
+                    <td id="results">60,000</td>
+                </tr>
+                <tr>
+                    <td>Kaitlyn Baucom</td>
+                    <td>kbauc@gmail.com</td>
+                    <td id="results">60,000</td>
+                </tr>
+                <tr>
+                    <td>Bryce Puckett</td>
+                    <td>bpuck@gmail.com</td>
+                    <td id="results">60,000</td>
+                </tr>
+                <tr>
+                    <td>Finnley David</td>
+                    <td>fdavid@gmail.com</td>
+                    <td id="results">50,000</td>
+                </tr>
+                <tr>
+                    <td>Helly Acharya</td>
+                    <td>hachr@gmail.com</td>
+                    <td id="results">43,000</td>
+                </tr>
+                <tr>
+                    <td>Mena Tadesse</td>
+                    <td>mtade@gmail.com</td>
+                    <td id="results">43,000</td>
+                </tr>
+                <tr>
+                    <td>James Addison</td>
+                    <td>jaddi@gmail.com</td>
+                    <td id="results">50,000</td>
+                </tr>
+            </table>
+
+        
+            <div>
+                <label for="name">Select Name:</label>
+                <div>
+                    <select id="name" name="name">
+                        <option> --(select option)-- </option>
+                        <option>McKenna Kirkpatrick</option>
+                        <option>Kaitlyn Baucom</option>
+                        <option>Bryce Puckett</option>
+                        <option>Finnley David</option>
+                        <option>Helly Acharya</option>
+                        <option>Mena Tadesse</option>
+                        <option>James Addison</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="new_name">Name: </label>
+                    <input type="text" id="new_name" placeholder="First and Last Name" required><br>
+
+                    <label for="new_salary">Salary: </label>
+                    <input type="text" id="new_salary" placeholder="$#####" required>
+                </div>
+            </div>
+
+            <input type="button" onclick="addSalary()" value="Add Salary">
+            <input type="button" onclick="displayResults()" value="Results">
+            <input type="button" onclick="displaySalary()" value="Display Salary">
+        </form>        
+    </main>
+
+    <script src="scripts/arrays.js"></script>
+
+    <div data-include="components/footer.html"></div>
+    <script src="scripts/include.js"></script>
+</body>
+</html>
