@@ -11,10 +11,44 @@
     <script src="scripts/include.js"></script>
 
     <main>
+        <h2>Basics of Crocheting</h2>
+
         <div data-include="components/basic_nav.html"></div>
         <script src="scripts/include.js"></script>
 
-        <h2>Still to be edited</h2>
+        <h3>Getting Started!</h3>
+        <div>
+            <h4>Matching Yarn to Hook</h4>
+            <img class="instruction" src="images/yarn.jpeg" alt="Yarn Match">
+            <p class="center">
+                First you want to make sure that the hook size and yarn matches to ensure you get the 
+                right size of loops/chain.
+            </p>
+        </div>
+        <div>
+            <h4>Make the Knot</h4>
+            <img class="instruction" src="images/pretzel.jpeg" alt="Pretzel">
+            <img class="instruction" src="images/knot.jpeg" alt="Knot">
+            <p class="center">
+                Make a pretzel shape and insert the hook as shown, then pull to tail to make the shown knot.
+            </p>
+        </div>
+        <div>
+            <h4>Make the Chain</h4>
+            <img class="instruction" src="images/wrap.jpeg" alt="Wrap Around Hook">
+            <img class="instruction" src="images/chain.jpeg" alt="Chain">
+            <p class="center">
+                Pull the yarn through the loop and repeat the process until you make a chain like.
+            </p>
+        </div>
+
+        <div>
+            <label>Leave a Comment: </label><br>
+            <input class="size" type="text" id="comment" name="comment" placeholder="Leave a Comment" required><br>
+            <button onclick="fakeComment()">Submit</button>
+        </div>
+
+        <script src="scripts/default.js"></script>
     </main>
 
     <div data-include="components/project_footer.html"></div>
