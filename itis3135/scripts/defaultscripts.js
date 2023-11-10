@@ -1,11 +1,42 @@
 function findPolygon() {
     let x = document.getElementById("polygon").value;
 
+    let = num;
     if (x === 1) {
         alert("Henagon");
     }
-
-
+    if (x === 2) {
+        alert("Digon");
+    }
+    if (x === 3) {
+        alert("Trigon");
+    }
+    if (x === 4) {
+        alert("Tetragon");
+    }
+    if (x === 5) {
+        alert("Pentagon");
+    }
+    if (x === 6) {
+        alert("Hexagon");
+    }
+    if (x === 7) {
+        alert("Heptagon");
+    }
+    if (x === 8) {
+        alert("Octagon");
+    }
+    if (x === 9) {
+        alert("Ennaagon");
+    }
+    if (x === 10) {
+        alert("Decagon");
+    }
+    if (x > 10) {
+        alert("Try again!");
+    }
+    
+    document.getElementById("shape").innerHTML = num;
 }
 
 function receiveComplement() {
