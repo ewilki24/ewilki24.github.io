@@ -43,27 +43,13 @@
 
         <fieldset>
             <form>
-                <div id="mood">
-                    <p>How are you feeling?</p>
+                <p>How are you feeling?</p>
     
-                    <div>
-                        <input type="radio" id="good" name="mood" value="Good">
-                        <label for="good">Good</label>
-                    </div>
-    
-                    <div>
-                        <input type="radio" id="okay" name="mood" value="Okay">
-                        <label for="okay">Okay</label>
-                    </div>
-    
-                    <div>
-                        <input type="radio" id="bad" name="mood" value="Bad">
-                        <label for="bad">Bad</label>
-                    </div>
-                    <br>
-                    
-                    <button onclick="submitMood()">Submit</button>
-                </div>
+                <label for="name">Hope You're Well!</label>
+                <input type="text" id="mood" placeholder="Good, Bad, Okay?" required><br>
+                <button onclick="submitMood()">Submit</button>
+
+                <div id="output"></div>
             </form>
         </fieldset>
 
@@ -71,22 +57,26 @@
             Welcome to Wilkinson Enterprises! <br>
             <script>
                 function submitName() {
-                    let name = document.getElementById("name");
+                    let name = document.getElementById("name").value;
                     document.getElementById("output").innerHTML = "Hello" + name + "!";
                 }
             </script>
             <br>
+            <script>
+                function submitMood() {
+                    let mood = document.getElementById("mood").value;
+                    document.getElementById("output").innerHTML = "Happy/Sorry to hear you're " + mood + "!";
+                }
+            </script>
         </h4>
 
         <fieldset>
             <p>Enter a Number 1 - 10:</p>
-            <div id="polygon">
-                <input type="number" id="polygon" placeholder="Enter a Number 1-10" required><br>
+            <input type="number" id="polygon" placeholder="Enter a Number 1-10" required><br>
 
-                <form>
-                    <button onclick="findPolygon()">Find Out Polygon</button>
-                </form>
-            </div>
+            <button onclick="findPolygon()">Submit</button>
+
+            <p id="shape"></p>
         </fieldset>
 
         <form>
