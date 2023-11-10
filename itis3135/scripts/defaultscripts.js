@@ -2,10 +2,10 @@ function findPolygon() {
     let x = document.getElementById("polygon").value;
 
     if (x === 1) {
-        return "Henagon"
+        alert("Henagon");
     }
 
-    
+
 }
 
 function receiveComplement() {
