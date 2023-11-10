@@ -31,14 +31,11 @@
 
         <fieldset>
             <form>
-                <div id="name">
+                <div id="output">
                     <p>Please Enter Your Name:</p>
             
-                    <label for="name">First Name: </label>
-                    <input type="text" id="name" placeholder="First Name" required><br>
-
-                    <label for="name">Last Name: </label>
-                    <input type="text" id="name" placeholder="Last Name" required><br>
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" placeholder="First & Last Name" required><br>
                     <br>
                     
                     <button onclick="submitName()">Submit</button>
@@ -73,15 +70,14 @@
         </fieldset>
 
         <h4>
+            Welcome to Wilkinson Enterprises! <br>
             <script>
                 function submitName() {
-                    document.getElementById("name").innerHTML = "Hello " + submitName() + "!";
-                }
-
-                function submitMood() {
-                    document.getElementById("mood").innerHTML = "Happy and/or Sorry to hear you're " + submitMood() + "!";
+                    let name = document.getElementById("name");
+                    document.getElementById("output").innerHTML = "Hello" + name + "!";
                 }
             </script>
+            <br>
         </h4>
 
         <fieldset>
