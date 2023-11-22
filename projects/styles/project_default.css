@@ -36,7 +36,7 @@ body {
     color: #18314f;
   }
 
-  a {
+  .origin-link {
     background-color: #5fad41;
     color: antiquewhite;
     padding: 15px 25px;
