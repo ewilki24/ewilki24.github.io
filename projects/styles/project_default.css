@@ -46,6 +46,7 @@ body {
 
   .diff-link {
     color: #5fad41;
+    background-color: none;
   }
   
   nav{
