@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basics of Crocheting</title>
-    <link rel="stylesheet" href="styles/project_default.css">
+    <link rel="stylesheet" href="styles/project_default.css" id="link">
+    <script src="alertify.min.js"></script>
 </head>
 <body>
     <div data-include="components/project_header.html"></div>
@@ -15,8 +16,17 @@
 
         <div data-include="components/basic_nav.html"></div>
         <script src="scripts/include.js"></script>
+        <script src="scripts/pagePiling.js"></script>
+
+        <div id="dialog" title="Welcome to the Basics Page!">
+            <p>
+                Scroll through this main page to learn how to get started. Then click through 
+                stitch tabs to learn the different stitches. 
+            </p>
+        </div>
 
         <h3>Getting Started!</h3>
+
         <div>
             <h4>Matching Yarn to Hook</h4>
             <img class="instruction" src="images/yarn.jpeg" alt="Yarn Match">
@@ -45,10 +55,12 @@
         <div>
             <label>Leave a Comment: </label><br>
             <input class="size" type="text" id="comment" name="comment" placeholder="Leave a Comment" required><br>
-            <button onclick="fakeComment()">Submit</button>
+            <button onclick="fakeComment()" id="notification">Submit</button>
         </div>
 
         <script src="scripts/default.js"></script>
+        <script src="scripts/widget.js"></script>
+        <script src="scripts/alert.js"></script>
     </main>
 
     <div data-include="components/project_footer.html"></div>
