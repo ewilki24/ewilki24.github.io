@@ -40,6 +40,16 @@ body {
     color: #18314f;
   }
 
+  .widget {
+    background-color: #5fad41;
+    color: antiquewhite;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 15px;
+    margin-left: 425px;
+    margin-right: 425px;
+  }
+
   .origin-link {
     background-color: #5fad41;
     color: antiquewhite;
@@ -82,6 +92,10 @@ body {
     header, footer {
       border: 4px solid #090c08;
       text-align: center;
+    }
+
+    header {
+      padding: 2%;
     }
 
     .instruction {
