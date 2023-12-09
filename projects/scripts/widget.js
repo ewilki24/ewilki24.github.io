@@ -1,8 +1,9 @@
-$(document).ready(function () {
-    $('#dialog').dialog({
-        autoOpen: false, title: 'Basics Guide'
+$(function() {
+    $("#dialog").dialog({
+        autoOpen: false, modal: true, show: "blind", hide: "blind"
     });
-    $('#guide').click(function () {
-        $('#dialog').dialog('open');
+    $("#guide").click(function() {
+        $("#dialog").dialog("open");
+        false;
     });
 });
