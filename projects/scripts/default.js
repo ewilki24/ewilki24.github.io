@@ -4,3 +4,9 @@ function fakeComment() {
         document.write("Sorry, this purposely doesn't work. Thank you for the comment!");
     } 
 }
+
+xhttp.open("GET", "ajax_info.txt", true);
+xhttp.send();
+
+xhttp.open("POST", "ajax_info.txt", true);
+xhttp.send();
