@@ -40,6 +40,13 @@ body {
     color: antiquewhite;
     padding: 15px 25px;
     border-radius: 15px;
+  }
+
+  .widget {
+    background-color: #5fad41;
+    color: antiquewhite;
+    padding: 15px 25px;
+    border-radius: 15px;
     margin-left: 640px;
   }
   
